@@ -27,13 +27,6 @@ Some of our reference projects are listed below, and we are very grateful for th
 
 
 
-## Dataset
-* You can download the SUIRD datasets at: https://github.com/yyangynu/SUIRD.
-* You can download the MRSID datasets at: https://github.com/LJY-RS/RIFT-multimodal-image-matching.
-* You can download the hyperspectral datasets at: https://github.com/YingJiacheng/UHIF-RIM.
-
-
-
 ## Run LAMM demo
 1. download the models at here: https://pan.baidu.com/s/1bqAzsPndCUDDBtz3YTlTXg?pwd=yhkd 
 code: yhkd
