@@ -28,6 +28,6 @@ Some of our reference projects are listed below, and we are very grateful for th
 
 
 ## Run LAMM demo
-1. download the models at here: https://pan.baidu.com/s/1bqAzsPndCUDDBtz3YTlTXg?pwd=yhkd 
+1. download the models at here: https://pan.baidu.com/s/1bqAzsPndCUDDBtz3YTlTXg?pwd=yhkd ,and place it in folder weights/
 code: yhkd
 2. run demo.py
