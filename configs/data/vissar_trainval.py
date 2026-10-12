@@ -1,0 +1,31 @@
+from configs.data.base import cfg
+
+
+
+BASEPATH = 'I:/Server/dataset'
+TRAIN_BASE_PATH = f"{BASEPATH}/data/VISSAR"
+cfg.DATASET.TRAINVAL_DATA_SOURCE = "VISSAR"
+cfg.DATASET.TRAIN_DATA_ROOT = f"{BASEPATH}/data/MM"
+cfg.DATASET.TRAIN_NPZ_ROOT = f"{TRAIN_BASE_PATH}/train/transforms"
+cfg.DATASET.TRAIN_LIST_PATH = f"{TRAIN_BASE_PATH}/train_list/vissar_all.txt"
+cfg.DATASET.TRAIN_INTRINSIC_PATH = f"{TRAIN_BASE_PATH}/train_list/vissar_allpair.txt"
+
+
+
+TEST_BASE_PATH = f"{BASEPATH}/data/test480_RoSca"
+cfg.DATASET.TEST_DATA_SOURCE = "VISSAR"
+cfg.DATASET.VAL_DATA_ROOT = cfg.DATASET.TEST_DATA_ROOT = TEST_BASE_PATH
+cfg.DATASET.VAL_NPZ_ROOT = cfg.DATASET.TEST_NPZ_ROOT = f"{TEST_BASE_PATH}/GT"
+cfg.DATASET.VAL_LIST_PATH = f"{TRAIN_BASE_PATH}/train_list/vissar_all.txt"
+cfg.DATASET.VAL_INTRINSIC_PATH = f"{TRAIN_BASE_PATH}/train_list/vissar_allpair.txt"
+cfg.DATASET.MIN_OVERLAP_SCORE_TEST = 0.0   
+
+
+
+cfg.DATASET.TEST_DATA_SOURCE = "VISSAR"
+cfg.DATASET.TEST_DATA_ROOT = cfg.DATASET.TEST_DATA_ROOT = f"{BASEPATH}/data/VISSAR/test480part"
+cfg.DATASET.TEST_NPZ_ROOT = cfg.DATASET.TEST_NPZ_ROOT = f"{TRAIN_BASE_PATH}/train/transforms"
+cfg.DATASET.TEST_LIST_PATH = f"{TRAIN_BASE_PATH}/train_list/vissar_all.txt"
+cfg.DATASET.TEST_INTRINSIC_PATH = f"{TRAIN_BASE_PATH}/train_list/vissar_allpair.txt"
+cfg.DATASET.MIN_OVERLAP_SCORE_TEST = 0.0   
+
