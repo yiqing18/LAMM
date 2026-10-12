@@ -4,8 +4,6 @@ import torch.nn.functional as F
 from einops.einops import rearrange
 import pdb
 import numpy as np
-import statistics
-from src.utils.plotting import make_GCM_point
 from kornia.geometry.subpix import dsnt
 
 INF = 1e9
